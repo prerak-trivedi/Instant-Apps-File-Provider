@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is required to keep the compilation happy, else following is reported:
+
+AGPBI: {"kind":"error","text":"error: resource xml/filestorage_paths
+(aka com.preraktrivedi.example.fileprovidertest:xml/filestorage_paths) not found.",
+"sources":[{"file":"/../FileProviderTest/foundation/build/intermediates/manifests/full/feature/debug/AndroidManifest.xml",
+"position":{"startLine":42}}],"original":"","tool":"AAPT"}
+-->
+<paths/>

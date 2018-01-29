@@ -1,0 +1,27 @@
+apply plugin: 'com.android.instantapp'
+
+android {
+    compileSdkVersion rootProject.compileSdk
+    buildToolsVersion rootProject.buildTools
+
+    defaultConfig {
+        minSdkVersion rootProject.minSdk
+        targetSdkVersion rootProject.targetSdk
+        versionCode "${appVersionCode}" as int
+        versionName "${appVersionName}"
+    }
+
+    buildTypes {
+        release {
+            debuggable false
+            minifyEnabled true
+            shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), '../proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    implementation project(':foundation')
+    implementation project(':feature-slim')
+}

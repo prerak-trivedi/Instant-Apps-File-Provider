@@ -1,0 +1,45 @@
+ext {
+    compileSdk = 27
+    targetSdk = 27
+    minSdk = 23
+    minSdkInstant = 23
+
+    buildTools = '27.0.2'
+    supportLibsVersion = '27.0.2'
+    instantAppsVersion = '1.1.0'
+
+    KEY_STRING = "String"
+    KEY_BOOLEAN = "boolean"
+    KEY_RES_STRING = "string"
+    KEY_BASE_URL = "BASE_URL"
+    KEY_APP_NAME = 'custom_app_name'
+}
+
+buildscript {
+
+    repositories {
+        google()
+        maven { url "https://maven.google.com" }
+        maven { url "https://jitpack.io" }
+        jcenter()
+        mavenCentral()
+    }
+
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.1.0-alpha08'
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        maven { url "https://maven.google.com" }
+        maven { url "https://jitpack.io" }
+        jcenter()
+        mavenCentral()
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}

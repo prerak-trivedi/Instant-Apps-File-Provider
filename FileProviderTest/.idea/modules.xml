@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/FileProviderTest.iml" filepath="$PROJECT_DIR$/FileProviderTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app-installed/app-installed.iml" filepath="$PROJECT_DIR$/app-installed/app-installed.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app-instant/app-instant.iml" filepath="$PROJECT_DIR$/app-instant/app-instant.iml" />
+      <module fileurl="file://$PROJECT_DIR$/feature-remaining/feature-remaining.iml" filepath="$PROJECT_DIR$/feature-remaining/feature-remaining.iml" />
+      <module fileurl="file://$PROJECT_DIR$/feature-slim/feature-slim.iml" filepath="$PROJECT_DIR$/feature-slim/feature-slim.iml" />
+      <module fileurl="file://$PROJECT_DIR$/foundation/foundation.iml" filepath="$PROJECT_DIR$/foundation/foundation.iml" />
+    </modules>
+  </component>
+</project>
